@@ -2,5 +2,6 @@ App\Entity\User:
   user{2..5}:
     email: '<email()>'
     roles: ["ROLE_USER"]
+    # root
     password: "\\$2y\\$13\\$TXnzqHUzxIcajTYoYlXjoOaeJy7no5ni21Ue2rzrF3C92KnDWqVCe"
     products: ['@product*']
