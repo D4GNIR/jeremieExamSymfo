@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+
+    <header>
+        {% block header %}
+            {% include 'common/_navbar.html.twig' %}
+        {% endblock %}
+    </header>
+    <body class="bg-dark">
+    {% block body %}
+    {% endblock %}
+    </body>
+
+    <footer>
+        {% block footer %}
+            {% include 'common/_footer.html.twig' %}
+        {% endblock %}
+    </footer>
+
+{% endblock %}

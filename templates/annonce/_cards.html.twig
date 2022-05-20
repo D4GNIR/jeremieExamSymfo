@@ -1,0 +1,11 @@
+<a class="text-decoration-none" href="{{ path('app_active', {'id': annonce.id}) }}">
+    <h3>{{ annonce.name }}</h3>
+    <div class="container-image">
+        <img src="{{ annonce.imagePath }}" class ="img-fluid" alt="...">
+    </div>
+</a>
+<p class="">Crée le {{ annonce.createdAt|date("d/m/Y") }}</p>
+<p class="">Crée par {{ annonce.createdBy.email }}</p>
+<p class="">Nombre d'annonce posté {{ annonce.createdBy.id|count_annonce_by_user }}</p>
+
+

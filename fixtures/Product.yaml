@@ -1,0 +1,7 @@
+App\Entity\Product:
+  product{0..50}:
+    name: '<word()>'
+    createdAt: '<dateTimeBetween("-364 days","-1 days")>'
+    imagePath: 'https://image.api.playstation.com/vulcan/ap/rnd/202107/1612/Y5RHNmzAtc6sRYwZlYiKHAxN.png'
+    isActive: '<numberBetween(0,1)>'
+    CreatedBy: '@user*'

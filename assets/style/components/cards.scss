@@ -1,0 +1,31 @@
+.card-game {
+  text-align: center;
+  
+  .container-image {
+    height: 320px;
+    position: relative;
+
+    &:hover {
+      transition: ease, 0.20s;
+      cursor: pointer;
+      transform: scale(1.04);
+    }
+
+    > img {
+      height: 97%;
+      width: 97%;
+      border-radius: 15px;
+    }
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+
